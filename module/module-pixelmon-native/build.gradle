@@ -23,6 +23,6 @@ dependencies {
     implementation("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
     implementation("org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT")
     implementation("org.bukkit:bukkit:1.16.5-R0.1-SNAPSHOT")
-
+    implementation fg.deobf("curse.maven:pixelmon-389487:5353673")
     implementation fileTree(dir: './libs', includes: ['*.jar'])
 }
